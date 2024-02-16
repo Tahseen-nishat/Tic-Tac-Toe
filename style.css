@@ -1,0 +1,73 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-image: url("https://visme.co/blog/wp-content/uploads/2017/07/50-Beautiful-and-Minimalist-Presentation-Backgrounds-042.jpg");
+    text-align: center;
+}
+
+.msgcontainer{
+    display: flex;
+    flex-wrap:wrap;
+    gap: 12px;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 12vh;
+    gap: 4rem;
+}
+#msg{
+    font-family:'Times New Roman', Times, serif;
+    color: rgb(97, 68, 30);
+    font-size: 8vmin;
+}
+.container{
+    height: 70vh;
+    display: flex;
+    
+    justify-content: center;
+    align-items: center;
+}
+.game{
+    height: 60vmin;
+    width: 60vmin;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5vmin;
+}
+
+.box{
+    height: 18vmin;
+    width: 18vmin;
+    border-radius: 1rem;
+    border: none;
+    box-shadow: 0 0 1rem rgba(0, 0, 0, 0.3);
+    font-size: 8vmin;
+    color: #3a1e07;
+    background-color: #f6ecb4
+}
+
+#rstbtn{
+    height: 6vmin;
+    width: 23vmin;
+    border: none;
+    font-size: 3vmin;
+    border-radius: 1rem;
+    color: #ffffc7;
+    font-family:'Times New Roman', Times, serif;
+    background-color: rgb(78, 47, 11);
+}
+#newbtn{
+    height: 6vmin;
+    width: 23vmin;
+    border: none;
+    border-radius: 1rem;
+    color: #ffffc7;
+    background-color: rgb(78, 47, 11);
+    font-size: 3vmin;
+    font-family:'Times New Roman', Times, serif;
+}
